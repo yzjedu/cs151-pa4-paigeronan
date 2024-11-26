@@ -32,9 +32,9 @@ def count_specific_word(table):
         for row in table:
             if user_word in row:
                 count += 1
-        print(f'The word {user_word} is in the headline {count} times')
-        user_word = input("What word do you want to search for? \n"
-                          "type 'exit' to exit the search ")
+    print(f'The word {user_word} is in the headline {count} times')
+    user_word = input("What word do you want to search for? \n"
+                        "type 'exit' to exit the search ")
 
 def write_headlines_with_word(table):
     word = input("What word do you want to use?")
